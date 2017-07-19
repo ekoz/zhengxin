@@ -30,7 +30,7 @@ $('#btnSend').on('click', function(){
     $(this).after('<a id="sendMail" href="javascript:void(0);"></a>');
     $('#sendMail').click(function(){
         content += ' <br/> from ' + email;
-        window.open('mailto:eko.zhan@xiaoi.com?subject=' + subject + '&body=' + content, '_self');
+        window.open('mailto:3410247727@qq.com?subject=' + subject + '&body=' + content, '_self');
         return false;
     });
     window.setTimeout(function(){
