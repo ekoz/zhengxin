@@ -5,7 +5,7 @@
 //$('#btnSend1').click();
 
 $('#btnStudy').click(function(){
-   window.open('http://www.lmacc.com/spzy_login.html', '_blank');
+   window.open('http://www.lmacc.com/zxkj_login.html', '_blank');
 });
 
 $('#btnSend').on('click', function(){
