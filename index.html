@@ -21,7 +21,8 @@
 	<link rel="shortcut icon" href="resources/img/favicon.ico">
 </head>
 <body data-spy="scroll">
-	<div style="display:none;"><img src="resources/img/zx_logo.jpg" /></div>
+	<!--  for weixin share head img -->
+	<div style="display:none;"><img src="resources/img/zhengxin_logo_400_400.png" /></div>
 	<!-- WRAPPER -->
 	<div id="wrapper">
 
@@ -116,12 +117,12 @@
 							</p>
 						</div>
 						<div class="col-sm-5">
-							<img src="resources/img/feature1.jpg" class="img-responsive img-rounded" alt="Feature">
+							<img data-original="resources/img/feature1.jpg" class="lazyload img-responsive img-rounded" alt="Feature">
 						</div>
 					</div>
 					<div class="row feature-item">
 						<div class="col-sm-6">
-							<img src="resources/img/feature2.jpg" class="img-responsive img-rounded" alt="Feature">
+							<img data-original="resources/img/feature2.jpg" class="lazyload img-responsive img-rounded" alt="Feature">
 						</div>
 						<div class="col-sm-6">
 							<h3 class="section-heading"><i class="fa fa-users"></i> 会计从业资格证</h3>
@@ -148,12 +149,12 @@
 							</p>
 						</div>
 						<div class="col-sm-5">
-							<img src="resources/img/feature3.jpg" class="img-responsive img-rounded" alt="Feature">
+							<img data-original="resources/img/feature3.jpg" class="lazyload img-responsive img-rounded" alt="Feature">
 						</div>
 					</div>
 					<div class="row feature-item">
 						<div class="col-sm-5">
-							<img src="resources/img/feature4.jpg" class="img-responsive img-rounded" alt="Feature">
+							<img data-original="resources/img/feature4.jpg" class="lazyload img-responsive img-rounded" alt="Feature">
 						</div>
 						<div class="col-sm-7">
 							<h3 class="section-heading"><i class="fa fa-american-sign-language-interpreting"></i> 精品小班辅导</h3>
@@ -176,7 +177,7 @@
 					<div class="testimonial-big">
 						<p class="content"><span>我们专注会计培训</span></p>
 						<div class="author">
-							<img src="resources/img/testimonial-author.png" class="img-circle" alt="Avatar">
+							<img data-original="resources/img/testimonial-author.png" class="lazyload img-circle" alt="Avatar">
 							<span class="name">杨老师</span>
 							<span class="title text-muted-2x"></span>
 						</div>
@@ -184,7 +185,7 @@
 					<div class="testimonial-big">
 						<p class="content"><span>专心只做这一件事</span></p>
 						<div class="author">
-							<img src="resources/img/testimonial-author2.png" class="img-circle" alt="Avatar">
+							<img data-original="resources/img/testimonial-author2.png" class="lazyload img-circle" alt="Avatar">
 							<span class="name">Edward Freeman</span>
 							<span class="title text-muted-2x"></span>
 						</div>
@@ -192,7 +193,7 @@
 					<div class="testimonial-big">
 						<p class="content"><span>用我们的专业，助你会计之路一帆风顺</span></p>
 						<div class="author">
-							<img src="resources/img/testimonial-author3.png" class="img-circle" alt="Avatar">
+							<img data-original="resources/img/testimonial-author3.png" class="lazyload img-circle" alt="Avatar">
 							<span class="name">刘老师</span>
 							<span class="title text-muted-2x"></span>
 						</div>
@@ -252,7 +253,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="team-member">
-							<img src="resources/img/person1.png" class="img-responsive img-circle" alt="Person">
+							<img data-original="resources/img/person1.png" class="lazyload img-responsive img-circle" alt="Person">
 							<div class="member-info">
 								<h3 class="name">杨老师</h3>
 								<span class="title text-muted">高级顾问</span>
@@ -262,7 +263,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="team-member">
-							<img src="resources/img/person3.png" class="img-responsive img-circle" alt="Person">
+							<img data-original="resources/img/person3.png" class="lazyload img-responsive img-circle" alt="Person">
 							<div class="member-info">
 								<h3 class="name">刘老师</h3>
 								<span class="title text-muted">高级会计讲师</span>
@@ -272,7 +273,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="team-member">
-							<img src="resources/img/person2.png" class="img-responsive img-circle" alt="Person">
+							<img data-original="resources/img/person2.png" class="lazyload img-responsive img-circle" alt="Person">
 							<div class="member-info">
 								<h3 class="name">詹老师</h3>
 								<span class="title text-muted">会计讲师</span>
@@ -343,7 +344,6 @@
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<!--<button type="submit" class="btn btn-primary" id="btnSend">发送</button>-->
 									<a id="btnSend" href="javascript:void(0);" class="btn btn-primary">发送</a>
 								</div>
 							</div>
@@ -355,29 +355,23 @@
 		<!-- END CONTACT -->
 
 		<!-- FOOTER -->
-		<footer class="footer-minimal" style="display:none;">
-			<div class="container">
-				<nav>
-					<ul class="list-unstyled list-inline margin-bottom-30px">
-						<li><a href="javascript:void(0);">About</a></li>
-						<li><a href="javascript:void(0);">Terms &amp; Condition</a></li>
-						<li><a href="javascript:void(0);">Help</a></li>
-					</ul>
-				</nav>
-				<ul class="list-inline social-icons social-icons-circle">
-					<li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="javascript:void(0);"><i class="fa fa-rss"></i></a></li>
-					<li><a href="javascript:void(0);"><i class="fa fa-youtube-play"></i></a></li>
-					<li><a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
-				<p class="copyright-text">Designed &amp; Crafted by <a href="javascript:void(0);" target="_blank">The Develovers</a> More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-			</div>
-		</footer>
+
 		<!-- END FOOTER -->
 
 	</div>
 	<!-- END WRAPPER -->
+
+	<!-- quick toolbar like phone, qq, weixin and so on -->
+	<div class="side-bar">
+		<a href="javascript:void(0);" data-toggle="popover" data-content="3410247727"><i class="fa fa-qq fa-3x"></i></a>
+		<a href="javascript:void(0);" data-toggle="popover" data-content="07132985077"><i class="fa fa-phone fa-3x"></i></a>
+		<a href="javascript:void(0);" data-toggle="popover" data-content="<img src='resources/img/weixin_logo.jpg' width='178' height='178' >"><i class="fa fa-weixin fa-3x"></i></a>
+		<!--<a href="javascript:void(0);"><i class="fa fa-weibo fa-3x"></i></a>-->
+		<a href="#home"><i class="fa fa-angle-up fa-3x"></i></a>
+	</div>
+
+
+	<!-- end quick toolbar -->
 
 	<!-- JAVASCRIPT -->
 	<script src="resources/js/jquery-2.1.1.min.js"></script>
@@ -386,7 +380,8 @@
 	<script src="resources/js/plugins/scrolling/jquery.localscroll-1.2.7-min.js"></script>
 	<script src="resources/js/plugins/parallax/parallax.min.js"></script>
 	<script src="resources/js/plugins/owl-carousel/owl.carousel.min.js"></script>
-	<script src="resources/js/main.js"></script>
+	<script src="resources/js/plugins/jquery_lazyload-1.9.7/jquery.lazyload.min.js"></script>
+	<script src="resources/js/main.js?_t=2017090301"></script>
 
 	<script type="text/javascript">
 		//gooogle analytics by eko.zhan at 2017-08-25

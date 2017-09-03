@@ -1,10 +1,23 @@
-$(document).ready( function() {
+$( function() {
 
+    //lazy all images with class lazyload
+    $("img.lazyload").lazyload();
 
+    //toolbar hover
+    $('[data-toggle="popover"]').popover({
+        animation: true,
+        delay: { "show": 500, "hide": 100 },
+        placement: 'left',
+        html: true,
+        trigger: 'hover'
+    });
+
+    //zhengxin study center
     $('#btnStudy').click(function(){
         window.open('http://www.lmacc.com/zxkj_login.html', '_blank');
     });
 
+    //contact us, send email to us
     $('#btnSend').on('click', function(){
         var name = $('#contact-name').val();
         var email = $('#contact-email').val();
