@@ -2018,9 +2018,19 @@ div[class*="col-"] > .form-group {
   height:48px;
   display: inline-block;
   text-align: center;
-  color: #2F2F2F;
+  color: #e5e5e5;
   margin-bottom: 10px;
 }
 .side-bar a:hover {
   color: #8F8F8F;
+}
+
+/**/
+.onepage-links a.btn-primary{
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
+.onepage-links a.btn-primary:active{
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
 }

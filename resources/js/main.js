@@ -3,6 +3,13 @@ $( function() {
     //lazy all images with class lazyload
     $("img.lazyload").lazyload();
 
+    //zhengxin memo text flex up
+    $('p.zx-memo').textFx({
+        type: 'fadeIn',
+        iChar: 100,
+        iAnim: 1000
+    });
+
     //toolbar hover
     $('[data-toggle="popover"]').popover({
         animation: true,
