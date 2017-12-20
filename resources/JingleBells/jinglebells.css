@@ -63,8 +63,14 @@ body {
 .zx-pt50{
     padding-top: 50%;
 }
+.zx-pt40{
+    padding-top: 40%;
+}
 .zx-pt30{
     padding-top: 30%;
+}
+.zx-pt20{
+    padding-top: 20%;
 }
 .zx-pt10{
     padding-top: 10%;
