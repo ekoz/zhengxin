@@ -13,7 +13,10 @@ var swiper = new Swiper('.swiper-container', {
     }
 });
 
-$('.zx-flow').textillate();
+$('.zx-flow').textillate({
+    minDisplayTime: 5*1000,
+    initialDelay: 1000
+});
 
 var trianglify = function(){
     var pattern = Trianglify({
