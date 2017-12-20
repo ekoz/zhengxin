@@ -1,4 +1,4 @@
-var colorArr = ['#800040', '#FF0000', '#00FF00', '#0000FF', '#000000', '#800080', '#FF8000'];
+var colorArr = ['#800040', '#FF0000', '#008000', '#0000FF', '#000000', '#800080', '#FF8000'];
 var swiper = new Swiper('.swiper-container', {
     direction: 'vertical',
     pagination: {
