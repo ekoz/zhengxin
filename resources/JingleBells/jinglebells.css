@@ -1,0 +1,75 @@
+a{text-decoration:none;}
+a{ color:#697d91;font-weight:normal;}
+a:hover{ color:#fc7946;}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #ffffff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif, Simsun;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    max-width: 640px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /*display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;*/
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.zx-page-i{
+    background-image: url("imgs/1.jpg");
+}
+.zx-page-ii{
+    background-image: url("imgs/2.jpg");
+}
+.zx-page-iii{
+    background-image: url("imgs/3.jpg");
+}
+.zx-page-ix{
+    background-image: url("imgs/4.jpg");
+}
+.zx-page-x{
+    background-image: url("imgs/5.jpg");
+}
+.zx-page-xi{
+    background-image: url("imgs/6.jpg");
+}
+.animated{
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
+}
+.zx-pt50{
+    padding-top: 50%;
+}
+.zx-pt30{
+    padding-top: 30%;
+}
+.zx-pt10{
+    padding-top: 10%;
+}
+.zx-mask{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+}
