@@ -79,10 +79,10 @@ $( function() {
 	$('body').scrollspy({ target: '#main-navbar', offset: 120});
 
 	// onepage scroll links
-	$('.nav-onepage, .onepage-links').localScroll({
-		duration: 500,
-		offset:  - $('.navbar-fixed-top').height()
-	});
+	// $('.nav-onepage, .onepage-links').localScroll({
+	// 	duration: 500,
+	// 	offset:  - $('.navbar-fixed-top').height()
+	// });
 
 	// hide collapsible menu once menu item clicked 
 	$('.nav-onepage li a').click( function() {
